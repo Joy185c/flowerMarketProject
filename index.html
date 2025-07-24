@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Lato:wght@400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <!-- Navbar Section Start -->
+   
+    <header class="m-4 p-4">
+
+        <div class="max-w-[1140px] mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <!-- Logo -->
+                <div>
+                    <img src="./assets/logo.png" alt="Faugei Flower Shop Logo" class="h-6 w-auto sm:h-12 sm:w-auto">
+                </div>
+
+                <div class="flex items-center space-x-8">
+                    <!-- Menu Items (Desktop View) -->
+                    <div class="hidden sm:flex items-center space-x-8">
+                        <a href="#" class="text-gray-800 font-semibold hover:text-[#E55473] transition-colors duration-300">Home</a>
+                        <a href="#" class="text-gray-500 hover:text-[#E55473] transition-colors duration-300">Shop</a>
+                        <a href="#" class="text-gray-500 hover:text-[#E55473] transition-colors duration-300">About us</a>
+                    </div>
+
+                    <!-- Cart Icon (Visible on all devices) -->
+                    <a href="#" class="flex items-center space-x-2 group">
+                         <!-- Cart Icon SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-800 group-hover:text-[#E55473] transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                        <span class="text-gray-800 group-hover:text-[#E55473] transition-colors duration-300">Cart ($56)</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--  Navbar Section End  -->
+      
+</body>
+</html>
